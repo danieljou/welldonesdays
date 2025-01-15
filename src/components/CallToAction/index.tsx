@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FaCalendarAlt, FaUsers, FaStore } from "react-icons/fa";
 
 const CallToAction = () => {
   return (
@@ -9,22 +10,32 @@ const CallToAction = () => {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[570px] text-center">
                 <h2 className="mb-2.5 text-3xl font-bold text-white md:text-[38px] md:leading-[1.44]">
-                  <span>What Are You Looking For?</span>
+                  <span>{"Prêt à participer ?"}</span>
                   <span className="text-3xl font-normal md:text-[40px]">
-                    {" "}
-                    Get Started Now{" "}
+                    {" Rejoignez-nous dès maintenant ! "}
                   </span>
                 </h2>
                 <p className="mx-auto mb-6 max-w-[515px] text-base leading-[1.5] text-white">
-                  There are many variations of passages of Lorem Ipsum but the
-                  majority have suffered in some form.
+                  {"Ne manquez pas cette opportunité unique de vous connecter,"}
+                  {"d'apprendre et de grandir avec des jeunes innovateurs du monde"}
+                  {"entier. Réservez votre place ou un stand dès aujourd'hui !"}
                 </p>
-                <Link
-                  href="/"
-                  className="inline-block rounded-md border border-transparent bg-secondary px-7 py-3 text-base font-medium text-white transition hover:bg-[#0BB489]"
-                >
-                  Start using Play
-                </Link>
+                <div className="flex flex-wrap justify-center gap-4">
+                  <Link
+                    href="/inscription"
+                    className="inline-flex items-center rounded-md bg-secondary px-7 py-3 text-base font-medium text-white transition hover:bg-[#0BB489]"
+                  >
+                    <FaCalendarAlt className="mr-2" />
+                    {"S'inscrire"}
+                  </Link>
+                  <Link
+                    href="/reserver-stand"
+                    className="inline-flex items-center rounded-md bg-white px-7 py-3 text-base font-medium text-primary transition hover:bg-gray-100"
+                  >
+                    <FaStore className="mr-2" />
+                    {"Réserver un Stand"}
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

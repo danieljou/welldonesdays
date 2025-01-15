@@ -4,13 +4,18 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Forgot Password | Play SaaS Starter Kit and Boilerplate for Next.js",
+  title: "Mot de passe oublié | Wellnesday Youth Week 2025",
+  description:
+    "Réinitialisez votre mot de passe pour accéder à votre compte et participer à la Wellnesday Youth Week 2025.",
 };
 
 const ForgotPasswordPage = () => {
   return (
     <>
-      <Breadcrumb pageName="Forget Password" />
+      <Breadcrumb
+        pageName="Mot de passe oublié"
+        pageDescription="Réinitialisez votre mot de passe pour accéder à votre compte."
+      />
       <ForgotPassword />
     </>
   );

@@ -3,41 +3,38 @@ import { Price } from "@/types/price";
 export const pricingData: Price[] = [
   {
     id: "price_1NQk5TLtGdPVhGLecVfQ7mn0",
-    unit_amount: 100 * 100,
-    nickname: "Basic",
+    unit_amount: 30000, // 30 000 FCFA
+    nickname: "Stand Standard",
     offers: [
-      "1 User",
-      "All UI components",
-      "Lifetime access",
-      "Free updates",
-      "Use on 1 (one) project",
-      "3 Months support",
+      "Espace d'exposition",
+      "Accès à l'électricité",
+      "Connexion Wi-Fi",
+      "Matériel de présentation de base",
     ],
   },
   {
     id: "price_1NQk55LtGdPVhGLefU8AHqHr",
-    unit_amount: 200 * 100,
-    nickname: "Premium",
+    unit_amount: 50000, // 50 000 FCFA
+    nickname: "Stand VIP",
     offers: [
-      "5 Users",
-      "All UI components",
-      "Lifetime access",
-      "Free updates",
-      "Use on 1 (one) project",
-      "3 Months support",
+      "Personnalisation du stand aux couleurs de l'entreprise",
+      "Espace d'exposition premium",
+      "Accès à l'électricité",
+      "Connexion Wi-Fi haut débit",
+      "Matériel de présentation avancé",
     ],
   },
   {
     id: "price_1NQk4eLtGdPVhGLeZsZDsCNz",
-    unit_amount: 300 * 100,
-    nickname: "Business",
+    unit_amount: 70000, // 70 000 FCFA
+    nickname: "Stand Premium",
     offers: [
-      "10 Users",
-      "All UI components",
-      "Lifetime access",
-      "Free updates",
-      "Use on 1 (one) project",
-      "3 Months support",
+      "Personnalisation complète du stand",
+      "Espace d'exposition premium",
+      "Accès à l'électricité et Wi-Fi haut débit",
+      "Matériel de présentation haut de gamme",
+      "Emplacement stratégique dans la salle",
+      "Support technique dédié",
     ],
   },
 ];

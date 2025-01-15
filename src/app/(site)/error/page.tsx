@@ -3,13 +3,18 @@ import NotFound from "@/components/NotFound";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "404 Page | Play SaaS Starter Kit and Boilerplate for Next.js",
+  title: "Page Introuvable | Wellnesday Youth Week 2025",
+  description:
+    "La page que vous recherchez n'existe pas ou a été déplacée. Revenez à l'accueil pour découvrir la Wellnesday Youth Week 2025.",
 };
 
 const ErrorPage = () => {
   return (
     <>
-      <Breadcrumb pageName="404 Page" />
+      <Breadcrumb
+        pageName="Page Introuvable"
+        pageDescription="Oups ! La page que vous recherchez n'existe pas ou a été déplacée."
+      />
 
       <NotFound />
     </>

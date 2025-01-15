@@ -7,8 +7,8 @@ const Faq = () => {
       <div className="container">
         <SectionTitle
           subtitle="FAQ"
-          title="Any Questions? Answered"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Des Questions ? Nous avons les Réponses"
+          paragraph="Vous avez des interrogations sur la Wellnsday Youth Week 2025 ? Consultez notre section FAQ pour trouver des réponses claires et détaillées sur la participation, le sponsoring, la location de stands et bien plus encore."
           width="640px"
           center
         />
@@ -16,31 +16,31 @@ const Faq = () => {
         <div className="-mx-4 mt-[60px] flex flex-wrap lg:mt-20">
           <div className="w-full px-4 lg:w-1/2">
             <SingleFaq
-              question="How to use TailGrids?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="Qui peut participer à la Wellnsday Youth Week 2025 ?"
+              answer="La Wellnsday Youth Week est ouverte à tous les jeunes, étudiants, entrepreneurs, institutions et entreprises souhaitant s'engager dans l'innovation numérique et le développement du leadership. Que vous soyez un jeune passionné de technologie ou une organisation souhaitant soutenir la jeunesse, vous êtes les bienvenus !"
             />
             <SingleFaq
-              question="How to download icons from LineIcons?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="Comment puis-je réserver un stand pour exposer mes produits ou services ?"
+              answer="Pour réserver un stand, vous pouvez choisir entre un Stand Standard (30 000 FCFA) ou un Stand VIP (50 000 FCFA). Rendez-vous sur notre page de réservation en ligne ou contactez-nous directement à l'adresse welldoneplanet@gmail.com pour plus de détails."
             />
             <SingleFaq
-              question="Is GrayGrids part of UIdeck?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="Quels sont les avantages de devenir sponsor de l'événement ?"
+              answer="En tant que sponsor, vous bénéficiez d'une visibilité accrue grâce à votre logo sur nos supports de communication, un stand prioritaire, des prises de parole lors de l'événement, et un accès privilégié aux jeunes talents. Choisissez entre les packages Gold, Silver ou Bronze pour soutenir cette initiative tout en maximisant votre impact."
             />
           </div>
 
           <div className="w-full px-4 lg:w-1/2">
             <SingleFaq
-              question="Can I use this template for commercial project?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="Comment les institutions académiques peuvent-elles participer ?"
+              answer="Les institutions académiques peuvent devenir partenaires académiques en encadrant les jeunes, en participant à des panels ou conférences, et en apportant leur expertise. Contactez-nous pour discuter des modalités de partenariat et des opportunités de collaboration."
             />
             <SingleFaq
-              question="Do you have plan to releasing Play Pro?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="Quels sont les coûts de participation pour les particuliers ?"
+              answer="La participation à la Wellnsday Youth Week est gratuite pour les jeunes et les étudiants. Cependant, les entreprises et organisations souhaitant réserver un stand ou devenir sponsor doivent opter pour l'un de nos packages payants. Consultez notre page de tarification pour plus de détails."
             />
             <SingleFaq
-              question="Where and how to host this template?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="Comment puis-je soutenir l'événement sans être sponsor ou exposant ?"
+              answer="Vous pouvez soutenir l'événement en partageant notre initiative sur vos réseaux sociaux, en encourageant les jeunes à participer, ou en offrant des dons en nature (matériel, équipements, etc.). Contactez-nous pour discuter des autres moyens de contribuer à cette cause noble."
             />
           </div>
         </div>

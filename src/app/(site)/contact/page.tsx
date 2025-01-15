@@ -3,15 +3,18 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title:
-    "Contact Page | Play SaaS Starter Kit and Boilerplate for Next.js",
-  description: "This is contact page description",
+  title: "Contactez-nous | Wellnesday Youth Week 2025",
+  description:
+    "Contactez l'équipe de la Wellnesday Youth Week 2025 pour plus d'informations sur l'événement, les partenariats ou les modalités de participation.",
 };
 
 const ContactPage = () => {
   return (
     <>
-      <Breadcrumb pageName="Contact Page" />
+      <Breadcrumb
+        pageName="Contactez-nous"
+        pageDescription="Pour toute question ou demande d'information, n'hésitez pas à nous contacter."
+      />
 
       <Contact />
     </>

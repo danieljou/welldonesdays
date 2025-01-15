@@ -5,8 +5,9 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Blog Grids | Play SaaS Starter Kit and Boilerplate for Next.js",
-  description: "Blog grids page description",
+    "Blog | Wellnesday Youth Week 2025 - Innovation et Leadership pour la Jeunesse",
+  description:
+    "Découvrez les articles et actualités de la Wellnesday Youth Week 2025. Explorez des sujets sur l'innovation numérique, le leadership et le vivre-ensemble pour une jeunesse camerounaise engagée.",
 };
 
 const Blog = () => {
@@ -14,7 +15,10 @@ const Blog = () => {
 
   return (
     <>
-      <Breadcrumb pageName="Blog Grids" />
+      <Breadcrumb
+        pageName="Blog"
+        pageDescription="Découvrez les dernières actualités et articles sur la Wellnesday Youth Week 2025."
+      />
 
       <section className="pb-10 pt-20 lg:pb-20 lg:pt-[120px]">
         <div className="container">
