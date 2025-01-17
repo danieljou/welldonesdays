@@ -71,7 +71,7 @@ const Header = () => {
                       className="header-logo w-full dark:hidden"
                     />
                     <Image
-                      src={`/images/logo/wellnesday1.png`}
+                      src={`/images/logo/wellnesday2.png`}
                       alt="logo"
                       width={240}
                       height={30}
