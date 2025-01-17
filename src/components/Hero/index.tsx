@@ -31,7 +31,7 @@ const Hero = () => {
                     "jeunesse et à l'innovation ! Du 3 au 8 février 2025, découvrez"
                   }
                   {
-                    "des ateliers, des conférences et des activités passionnantes"
+                    " des ateliers, des conférences et des activités passionnantes"
                   }
                   {
                     "conçus pour inspirer et connecter les jeunes du monde entier."

@@ -92,7 +92,11 @@ const Header = () => {
                       className="header-logo w-full dark:hidden"
                     />
                     <Image
-                      src={"/images/logo/wellnesday1.png"}
+                      src={`${
+                        sticky
+                          ? "/images/logo/wellnesday2.png"
+                          : "/images/logo/wellnesday1.png"
+                      }`}
                       alt="logo"
                       width={140}
                       height={30}

@@ -1,6 +1,7 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import Faq from "@/components/Faq";
 import Pricing from "@/components/Pricing";
+import SponsorSection from "@/components/Pricing/SponsorSection";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -17,6 +18,7 @@ const PricingPage = () => {
         pageDescription="Explorez nos packages de sponsoring et les modalités de participation pour soutenir la Wellnesday Youth Week 2025."
       />
       <Pricing />
+      <SponsorSection />
       <Faq />
     </>
   );

@@ -1,9 +1,16 @@
+"use client";
 import axios from "axios";
 import React from "react";
 import OfferList from "./OfferList";
 import { Price } from "@/types/price";
 
 const PricingBox = ({ product }: { product: Price }) => {
+  // Taux de change (1 USD = 600 FCFA)
+  const exchangeRate = 600;
+
+  // Convertir le prix en FCFA si nécessaire
+  const priceInFCFA = product.unit_amount * exchangeRate;
+
   // POST request
   const handleSubscription = async (e: any) => {
     e.preventDefault();
@@ -36,21 +43,24 @@ const PricingBox = ({ product }: { product: Price }) => {
           {product.nickname}
         </span>
         <h2 className="mb-11 text-4xl font-semibold text-dark dark:text-white xl:text-[42px] xl:leading-[1.21]">
-          <span className="text-xl font-medium">$ </span>
+          <span className="text-xl font-medium">FCFA </span>
           <span className="-ml-1 -tracking-[2px]">
-            {(product.unit_amount / 100).toLocaleString("en-US", {
-              currency: "USD",
+            {priceInFCFA.toLocaleString("fr-FR", {
+              style: "currency",
+              currency: "XOF", // XOF est le code ISO pour le FCFA
+              minimumFractionDigits: 0,
+              maximumFractionDigits: 0,
             })}
           </span>
-          <span className="text-base font-normal text-body-color dark:text-dark-6">
+          {/* <span className="text-base font-normal text-body-color dark:text-dark-6">
             {" "}
-            Per Month
-          </span>
+            Par Mois
+          </span> */}
         </h2>
 
         <div className="mb-[50px]">
           <h3 className="mb-5 text-lg font-medium text-dark dark:text-white">
-            Features
+            Fonctionnalités
           </h3>
           <div className="mb-10">
             {product?.offers.map((offer, i) => (
@@ -63,7 +73,7 @@ const PricingBox = ({ product }: { product: Price }) => {
             onClick={handleSubscription}
             className="inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition duration-300 hover:bg-primary/90"
           >
-            Purchase Now
+            Acheter Maintenant
           </button>
         </div>
       </div>
