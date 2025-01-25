@@ -106,14 +106,14 @@ const Footer = () => {
                     {"Programme"}
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     href="/stands"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     {"Réserver un Stand"}
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link
                     href="/contact"

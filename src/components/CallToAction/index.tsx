@@ -1,5 +1,5 @@
-import Link from "next/link";
-import { FaCalendarAlt, FaUsers, FaStore } from "react-icons/fa";
+// import Link from "next/link";
+// import { FaCalendarAlt, FaUsers, FaStore } from "react-icons/fa";
 
 const CallToAction = () => {
   return (
@@ -21,20 +21,20 @@ const CallToAction = () => {
                   {"entier. Réservez votre place ou un stand dès aujourd'hui !"}
                 </p>
                 <div className="flex flex-wrap justify-center gap-4">
-                  <Link
+                  {/* <Link
                     href="/inscription"
                     className="inline-flex items-center rounded-md bg-secondary px-7 py-3 text-base font-medium text-white transition hover:bg-[#0BB489]"
                   >
                     <FaCalendarAlt className="mr-2" />
                     {"S'inscrire"}
-                  </Link>
-                  <Link
+                  </Link> */}
+                  {/* <Link
                     href="/reserver-stand"
                     className="inline-flex items-center rounded-md bg-white px-7 py-3 text-base font-medium text-primary transition hover:bg-gray-100"
                   >
                     <FaStore className="mr-2" />
                     {"Réserver un Stand"}
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>

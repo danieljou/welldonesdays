@@ -9,7 +9,7 @@ const PricingBox = ({ product }: { product: Price }) => {
   const exchangeRate = 600;
 
   // Convertir le prix en FCFA si nécessaire
-  const priceInFCFA = product.unit_amount * exchangeRate;
+  const priceInFCFA = product.unit_amount ;
 
   // POST request
   const handleSubscription = async (e: any) => {
@@ -50,6 +50,7 @@ const PricingBox = ({ product }: { product: Price }) => {
               currency: "XOF", // XOF est le code ISO pour le FCFA
               minimumFractionDigits: 0,
               maximumFractionDigits: 0,
+              
             })}
           </span>
           {/* <span className="text-base font-normal text-body-color dark:text-dark-6">

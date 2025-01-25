@@ -7,23 +7,25 @@ const NotFound = () => {
     <section className="bg-white py-20 dark:bg-dark-2 lg:py-[110px]">
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap items-center">
-          <div className="w-full px-4 md:w-5/12 lg:w-6/12">
-            <div className="relative mx-auto aspect-[129/138] max-w-[357px] text-center">
+          <div className="w-full px-4 flex justify-center">
+            <div className="flex justify-center w-full ">
               <Image
-                src="/images/404.svg"
+                src="/images/cs.png"
                 alt="image"
-                fill
-                className="mx-auto max-w-full dark:hidden"
+                width={600}
+                height={500}
+                className=""
               />
-              <Image
-                src="/images/404-dark.svg"
+              {/* <Image
+                src="/images/cs.png"
                 alt="image"
-                fill
-                className="mx-auto hidden max-w-full dark:block"
-              />
+                width={600}
+                height={500}
+                className=" hidden dark:block"
+              /> */}
             </div>
           </div>
-          <div className="w-full px-4 md:w-7/12 lg:w-6/12 xl:w-5/12">
+          {/* <div className="w-full px-4 md:w-7/12 lg:w-6/12 xl:w-5/12">
             <div>
               <div className="mb-8">
                 <svg
@@ -70,7 +72,7 @@ const NotFound = () => {
                 Go To Home
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
