@@ -1,5 +1,6 @@
 // import Image from "next/image";
 
+import Link from "next/link";
 import {
   FaCalendarAlt,
   FaMapMarkerAlt,
@@ -47,14 +48,14 @@ const Hero = () => {
                     </a>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="/programme"
-                      target="_blank"
+                      
                       className="flex items-center gap-4 rounded-md bg-white/[0.12] px-6 py-[14px] text-base font-medium text-white transition duration-300 ease-in-out hover:bg-white hover:text-dark"
                     >
                       <FaCalendarAlt className="text-xl" />
                       {"Voir le programme"}
-                    </a>
+                    </Link>
                   </li>
                 </ul>
 

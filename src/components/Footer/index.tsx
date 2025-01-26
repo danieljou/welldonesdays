@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { FaPhone, FaMapMarkerAlt, FaMailBulk } from "react-icons/fa"; // Import des icônes
 
 const Footer = () => {
   return (
@@ -14,7 +15,7 @@ const Footer = () => {
             <div className="mb-10 w-full">
               <Link href="/" className="mb-6 inline-block max-w-[160px]">
                 <Image
-                  src="/images/logo/wellnesday2.png"
+                  src="/images/logow.png"
                   alt="logo"
                   width={140}
                   height={30}
@@ -31,7 +32,7 @@ const Footer = () => {
               <div className="-mx-3 flex items-center">
                 <a
                   aria-label="social link"
-                  href="https://facebook.com"
+                  href="https://www.facebook.com/share/18Keg9zYqF/?mibextid=wwXIfr"
                   className="px-3 text-gray-7 hover:text-white"
                 >
                   <svg
@@ -47,7 +48,7 @@ const Footer = () => {
                 </a>
                 <a
                   aria-label="social link"
-                  href="https://twitter.com"
+                  href="https://x.com/welldoneplanet?t=cjuR8QiruLyd9TjwiRMmHg&s=35"
                   className="px-3 text-gray-7 hover:text-white"
                 >
                   <svg
@@ -63,7 +64,7 @@ const Footer = () => {
                 </a>
                 <a
                   aria-label="social link"
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/welldoneplanet/profilecard/?igsh=MWh1ejl3dWVobHdwcw=="
                   className="px-3 text-gray-7 hover:text-white"
                 >
                   <svg
@@ -135,7 +136,7 @@ const Footer = () => {
               <ul>
                 <li>
                   <Link
-                    href="/sponsors"
+                    href="/inscription"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     {"Devenir Sponsor"}
@@ -143,7 +144,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/partenaires"
+                    href="/inscription"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     {"Devenir Partenaire"}
@@ -169,19 +170,31 @@ const Footer = () => {
               </h4>
               <ul>
                 <li>
-                  <p className="mb-3 inline-block text-base text-gray-7">
-                    {"+237 677 223 241"}
-                  </p>
+                  <div className="mb-3 flex items-center">
+                    <FaPhone className="mr-3 text-lg text-gray-7" />{" "}
+                    {/* Icône téléphone */}
+                    <p className="inline-block text-base text-gray-7">
+                      {"+237 677 223 241"}
+                    </p>
+                  </div>
                 </li>
                 <li>
-                  <p className="mb-3 inline-block text-base text-gray-7">
-                    {"welldoneplanet@gmail.com"}
-                  </p>
+                  <div className="mb-3 flex items-center">
+                    <FaMailBulk className="mr-3 text-lg text-gray-7" />{" "}
+                    {/* Icône email */}
+                    <p className="inline-block text-base text-gray-7">
+                      {"welldoneplanet@gmail.com"}
+                    </p>
+                  </div>
                 </li>
                 <li>
-                  <p className="mb-3 inline-block text-base text-gray-7">
-                    {"Yaoundé, Cameroun"}
-                  </p>
+                  <div className="mb-3 flex items-center">
+                    <FaMapMarkerAlt className="mr-3 text-lg text-gray-7" />{" "}
+                    {/* Icône localisation */}
+                    <p className="inline-block text-base text-gray-7">
+                      {"Yaoundé, Cameroun"}
+                    </p>
+                  </div>
                 </li>
               </ul>
             </div>
@@ -191,7 +204,7 @@ const Footer = () => {
 
       {/* Section Droits d'auteur */}
       <div className="mt-12 border-t border-[#8890A4] border-opacity-40 py-8 lg:mt-[60px]">
-        <div className="container">
+        {/* <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-2/3 lg:w-1/2">
               <div className="my-1">
@@ -225,7 +238,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Formes décoratives */}
