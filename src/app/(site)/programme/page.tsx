@@ -25,10 +25,10 @@ const ProgramPage = () => {
         <div className="container mx-auto px-4">
           <div className="mb-12 text-center">
             <h2 className="text-4xl font-bold text-dark dark:text-white sm:text-5xl md:text-6xl">
-              Programme de l'événement
+              {"Programme de l'événement"}
             </h2>
             <p className="mt-4 text-xl text-body-color dark:text-dark-6">
-              Découvrez les activités et les moments forts de la Wellnesday Youth Week 2025.
+             {" Découvrez les activités et les moments forts de la Wellnesday Youth Week 2025."}
             </p>
           </div>
 
@@ -52,22 +52,21 @@ const ProgramPage = () => {
                     <FaLightbulb className="h-8 w-8" />
                   </div>
                   <h4 className="text-2xl font-bold text-dark dark:text-white">
-                    Sélection des idées
+                    {"Sélection des idées"}
                   </h4>
                 </div>
                 <p className="mt-4 text-lg text-body-color dark:text-dark-6">
                   <FaCalendarAlt className="mr-2 inline-block" />
-                  <strong>3 février 2025</strong>
+                  <strong>{"3 février 2025"}</strong>
                 </p>
                 <p className="mt-6 text-lg text-body-color dark:text-dark-6">
-                  Les élèves du secondaire présenteront leurs idées innovantes. Un jury
-                  sélectionnera les meilleures propositions pour passer à l'étape suivante.
+                  {"Les élèves du secondaire présenteront leurs idées innovantes. Un jury sélectionnera les meilleures propositions pour passer à l'étape suivante."}
                 </p>
                 <div className="mt-6 flex items-center space-x-4">
                   <FaHandshake className="h-6 w-6 text-primary" />
                   <FaChartLine className="h-6 w-6 text-secondary" />
                   <span className="text-lg text-body-color dark:text-dark-6">
-                    Soutien et évaluation par des experts.
+                    {"Soutien et évaluation par des experts."}
                   </span>
                 </div>
               </div>
@@ -87,22 +86,21 @@ const ProgramPage = () => {
                     <FaUsers className="h-8 w-8" />
                   </div>
                   <h4 className="text-2xl font-bold text-dark dark:text-white">
-                    Formation et accompagnement
+                    {"Formation et accompagnement"}
                   </h4>
                 </div>
                 <p className="mt-4 text-lg text-body-color dark:text-dark-6">
                   <FaCalendarAlt className="mr-2 inline-block" />
-                  <strong>3 - 5 février 2025</strong>
+                  <strong>{"3 - 5 février 2025"}</strong>
                 </p>
                 <p className="mt-6 text-lg text-body-color dark:text-dark-6">
-                  Les participants sélectionnés bénéficieront de formations et d'un accompagnement
-                  personnalisé pour développer leurs solutions.
+                 {" Les participants sélectionnés bénéficieront de formations et d'un accompagnement personnalisé pour développer leurs solutions."}
                 </p>
                 <div className="mt-6 flex items-center space-x-4">
                   <FaChartLine className="h-6 w-6 text-primary" />
                   <FaAward className="h-6 w-6 text-secondary" />
                   <span className="text-lg text-body-color dark:text-dark-6">
-                    Ateliers pratiques et mentorat.
+                   {" Ateliers pratiques et mentorat."}
                   </span>
                 </div>
               </div>
@@ -124,22 +122,21 @@ const ProgramPage = () => {
                     <FaTrophy className="h-8 w-8" />
                   </div>
                   <h4 className="text-2xl font-bold text-dark dark:text-white">
-                    Présentation et remise des prix
+                   {" Présentation et remise des prix"}
                   </h4>
                 </div>
                 <p className="mt-4 text-lg text-body-color dark:text-dark-6">
                   <FaCalendarAlt className="mr-2 inline-block" />
-                  <strong>8 février 2025</strong>
+                  <strong>{"8 février 2025"} </strong>
                 </p>
                 <p className="mt-6 text-lg text-body-color dark:text-dark-6">
-                  Les équipes présenteront leurs solutions devant un panel d'experts. Les meilleurs
-                  projets seront récompensés lors de la cérémonie de clôture.
+                  {"Les équipes présenteront leurs solutions devant un panel d'experts. Les meilleurs rojets seront récompensés lors de la cérémonie de clôture."}
                 </p>
                 <div className="mt-6 flex items-center space-x-4">
                   <FaAward className="h-6 w-6 text-primary" />
                   <FaHandshake className="h-6 w-6 text-secondary" />
                   <span className="text-lg text-body-color dark:text-dark-6">
-                    Cérémonie de clôture et networking.
+                    {"Cérémonie de clôture et networking."}
                   </span>
                 </div>
               </div>
