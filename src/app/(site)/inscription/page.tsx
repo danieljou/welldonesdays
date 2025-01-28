@@ -19,20 +19,32 @@ const ProgramPage = () => {
 
       {/* Section des boutons d'inscription */}
       <div className="container mx-auto px-4 py-8">
-        <div className="flex flex-col md:flex-row justify-center gap-4">
-          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfL7kQ-7KpAARoqoSk1bclrFUG0zXQr2dnSp8kY3yuaxcRmDA/viewform?usp=header" target="_blank" passHref>
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full md:w-auto">
+        <div className="flex flex-col justify-center gap-4 md:flex-row">
+          <Link
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeH3c1sEw1emmzCjUznsf2cbM2NPdcY2M6EpCoZtEal6kXLkQ/viewform?usp=header"
+            target="_blank"
+            passHref
+          >
+            <button className="w-full rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700 md:w-auto">
               {"S'inscrire en tant que Participant"}
             </button>
           </Link>
-          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfJ3QolD0KyuK0yViNe36o4M5bbWnhd8JfrySafKv11MGgeaQ/viewform?usp=header" target="_blank" passHref>
-            <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded w-full md:w-auto">
+          <Link
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfSQGAwWBnAe3VqOTDX6fhh2adcf0Omykq7LM3JKYx1ErF5ZQ/viewform?usp=header"
+            target="_blank"
+            passHref
+          >
+            <button className="w-full rounded bg-green-500 px-4 py-2 font-bold text-white hover:bg-green-700 md:w-auto">
               {"Devenir Sponsor"}
             </button>
           </Link>
-          <Link href="https://docs.google.com/forms/d/e/1FAIpQLScIbYvYSyqEHZJFiQ26viDZGIXrxOxL-F6yuDNsrW2Wi3BpEw/viewform?usp=header" target="_blank" passHref>
-            <button className="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded w-full md:w-auto">
-             {" Devenir Partenaire"}
+          <Link
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdRyQGVGPGh0LaGOydwqsbAHomgImDk4lV8sJ5ch8FDneql3g/viewform?usp=header"
+            target="_blank"
+            passHref
+          >
+            <button className="w-full rounded bg-purple-500 px-4 py-2 font-bold text-white hover:bg-purple-700 md:w-auto">
+              {" Devenir Partenaire"}
             </button>
           </Link>
         </div>

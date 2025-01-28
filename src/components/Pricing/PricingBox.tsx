@@ -15,7 +15,7 @@ const PricingBox = ({ product }: { product: Price }) => {
   const handleSubscription = async (e: any) => {
     e.preventDefault();
     
-    window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLScIbYvYSyqEHZJFiQ26viDZGIXrxOxL-F6yuDNsrW2Wi3BpEw/viewform?usp=header'
+    window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSdRyQGVGPGh0LaGOydwqsbAHomgImDk4lV8sJ5ch8FDneql3g/viewform?usp=header'
   };
 
   return (
