@@ -16,7 +16,7 @@ const featuresData: Feature[] = [
     title: "Opportunités de Réseautage",
     paragraph: "Connectez-vous avec des jeunes, des mentors et des leaders du monde entier.",
     btn: "Rejoindre",
-    btnLink: "/reseau",
+    btnLink: "https://wa.link/cjuvid",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const featuresData: Feature[] = [
     title: "Ateliers d'Innovation",
     paragraph: "Participez à des ateliers pratiques conçus pour stimuler la créativité et l'innovation.",
     btn: "En Savoir Plus",
-    btnLink: "/ateliers",
+    btnLink: "https://wa.link/cjuvid",
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ const featuresData: Feature[] = [
     title: "Communauté de Soutien",
     paragraph: "Bénéficiez du soutien d'une communauté mondiale de jeunes leaders et acteurs du changement.",
     btn: "Rejoindre la Communauté",
-    btnLink: "/communaute",
+    btnLink: "https://wa.link/cjuvid",
   },
 ];
 export default featuresData;

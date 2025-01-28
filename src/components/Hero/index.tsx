@@ -50,7 +50,6 @@ const Hero = () => {
                   <li>
                     <Link
                       href="/programme"
-                      
                       className="flex items-center gap-4 rounded-md bg-white/[0.12] px-6 py-[14px] text-base font-medium text-white transition duration-300 ease-in-out hover:bg-white hover:text-dark"
                     >
                       <FaCalendarAlt className="text-xl" />
@@ -70,39 +69,25 @@ const Hero = () => {
                     data-wow-delay=".3s"
                   >
                     <a
-                      href="/localisation"
-                      className="text-white/60 duration-300 ease-in-out hover:text-white"
-                      target="_blank"
-                    >
-                      <FaMapMarkerAlt className="text-2xl" />
-                    </a>
-                    <a
-                      href="https://twitter.com"
+                      href="https://x.com/welldoneplanet?t=cjuR8QiruLyd9TjwiRMmHg&s=35"
                       className="text-white/60 duration-300 ease-in-out hover:text-white"
                       target="_blank"
                     >
                       <FaTwitter className="text-2xl" />
                     </a>
                     <a
-                      href="https://facebook.com"
+                      href="https://www.facebook.com/share/18Keg9zYqF/?mibextid=wwXIfr"
                       className="text-white/60 duration-300 ease-in-out hover:text-white"
                       target="_blank"
                     >
                       <FaFacebook className="text-2xl" />
                     </a>
                     <a
-                      href="https://instagram.com"
+                      href="https://www.instagram.com/welldoneplanet/profilecard/?igsh=MWh1ejl3dWVobHdwcw=="
                       className="text-white/60 duration-300 ease-in-out hover:text-white"
                       target="_blank"
                     >
                       <FaInstagram className="text-2xl" />
-                    </a>
-                    <a
-                      href="https://github.com"
-                      className="text-white/60 duration-300 ease-in-out hover:text-white"
-                      target="_blank"
-                    >
-                      <FaGithub className="text-2xl" />
                     </a>
                   </div>
                 </div>

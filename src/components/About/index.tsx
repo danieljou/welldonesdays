@@ -37,7 +37,7 @@ const About = () => {
                     Voir le Programme
                   </a>
                   <a
-                    href="/reseau"
+                    href="https://wa.link/cjuvid"
                     className="inline-flex items-center justify-center rounded-md bg-secondary px-7 py-3 text-center text-base font-medium text-white duration-300 hover:bg-secondary/90"
                   >
                     <FaUsers className="mr-2" />
@@ -81,7 +81,7 @@ const About = () => {
                         {"Etudiants"}
                       </span>
                       <span className="block text-base font-medium text-white text-opacity-70">
-                        {"Formés"}
+                        {"Formés en cours d'obtention du diplôme"}
                       </span>
                     </div>
                     <div>

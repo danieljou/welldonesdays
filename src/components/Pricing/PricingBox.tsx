@@ -14,18 +14,8 @@ const PricingBox = ({ product }: { product: Price }) => {
   // POST request
   const handleSubscription = async (e: any) => {
     e.preventDefault();
-    const { data } = await axios.post(
-      "/api/payment",
-      {
-        priceId: product.id,
-      },
-      {
-        headers: {
-          "Content-Type": "application/json",
-        },
-      },
-    );
-    window.location.assign(data);
+    
+    window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLScIbYvYSyqEHZJFiQ26viDZGIXrxOxL-F6yuDNsrW2Wi3BpEw/viewform?usp=header'
   };
 
   return (
